@@ -1,0 +1,8 @@
+# Twitter-Scrapping
+El objetivo es aplicar algoritmos de clasificación de texto al análisis de sentimientos en mensajes cortos escritos en español, tomando como base un conjunto de datos proveniente de Twitter y que se encuentra publicado en https://www.kaggle.com/datasets/philipsanm/sentiment-analysis-in-spanish-tweets/data con 2590 registros.
+
+El proceso contempla diversas etapas que incluyen la carga y depuración del archivo, la exploración inicial de la distribución de las clases de sentimientos y la incorporación de una lista de stopwords en español, así como un preprocesamiento exhaustivo que abarca la normalización del texto, la tokenización, la eliminación de caracteres no alfabéticos y de palabras vacías, además de la aplicación del stemmer de Snowball para obtener raíces léxicas.
+
+Posteriormente, la colección se divide en conjuntos de entrenamiento y prueba bajo una proporción 75/25, lo que permite realizar seis experimentos de clasificación mediante Bayesianos ingenuos, Regresión Logística y Máquinas de Vectores de Soporte (SVM), tanto sobre el texto limpio como sobre el texto reducido mediante stemming, empleando en ambos casos la representación bag-of-words. Finalmente, se ejecuta una evaluación comparativa de los modelos, considerando métricas de exactitud, precisión y recall, contrastando los mejores resultados obtenidos por cada algoritmo y valorando el impacto del stemming en el desempeño de los clasificadores.
+
+En conjunto, este enfoque permite implementar un flujo integral de procesamiento de lenguaje natural, desde la preparación de los datos hasta la interpretación crítica de resultados experimentales.
