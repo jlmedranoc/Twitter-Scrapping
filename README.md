@@ -3,7 +3,7 @@
 El ejercicio implementa un flujo completo de *análisis de sentimientos* en mensajes cortos en español utilizando técnicas de *Procesamiento de Lenguaje Natural (NLP)* y algoritmos de *clasificación supervisada*.  
 
 ## Dataset  
-El análisis se fundamenta en un conjunto de datos diseñado para el estudio de sentimientos en mensajes escritos en español, utilizando el dataset público [Sentiment Analysis in Spanish Tweets](https://www.kaggle.com/datasets/philipsanm/sentiment-analysis-in-spanish-tweets/data), que contiene *2590 registros* extraídos desde la red social Twitter.  
+El análisis se fundamenta en un conjunto de datos diseñado para el estudio de sentimientos en mensajes escritos en español, utilizando el dataset público [Sentiment Analysis in Spanish Tweets](https://www.kaggle.com/datasets/philipsanm/sentiment-analysis-in-spanish-tweets/data) [4], que contiene *2590 registros* extraídos desde la red social Twitter.  
 
 Cada registro incluye:  
 - `user`: identificador del usuario que envió el mensaje corto.  
@@ -46,11 +46,13 @@ El análisis comparativo de los modelos permitió identificar los siguientes hal
 
 - *Mejor modelo*: SVM con texto limpio (accuracy ≈ 77%).  
 - *Peor modelo*: Naive Bayes con texto stemmizado (accuracy ≈ 59%).  
-- El *stemming* **no mejoró el rendimiento**, lo que confirma que en español puede distorsionar palabras y reducir la capacidad de clasificación.  
+- El *stemming* *no mejoró el rendimiento*, lo que confirma que en español puede distorsionar palabras y reducir la capacidad de clasificación.  
 
 ## Referencias bibliográficas  
 [1] C. D. Manning, P. Raghavan, and H. Schütze, *Introduction to Information Retrieval*. Cambridge, U.K.: Cambridge Univ. Press, 2008.  
 [2] S. Bird, E. Klein, and E. Loper, *Natural Language Processing with Python*. Sebastopol, CA, USA: O’Reilly Media, 2009.  
 [3] F. Pedregosa et al., “Scikit-learn: Machine Learning in Python,” *J. Mach. Learn. Res.*, vol. 12, pp. 2825–2830, 2011.  
 [4] P. San Martín, “Sentiment Analysis in Spanish Tweets,” Kaggle, 2020. [Online]. Available: https://www.kaggle.com/datasets/philipsanm/sentiment-analysis-in-spanish-tweets/data  
-[5] H. Dedhia, “Stop words in 28 languages,” Kaggle, 2018. [Online]. Available: ht
+[5] H. Dedhia, “Stop words in 28 languages,” Kaggle, 2018. [Online]. Available: https://www.kaggle.com/datasets/heeraldedhia/stop-words-in-28-languages  
+[6] NLTK Documentation. [Online]. Available: https://www.nltk.org/  
+[7] Scikit-learn Documentation. [Online]. Available: https://scikit-learn.org/stable/  
