@@ -1,6 +1,8 @@
 # Twitter-Scrapping — Sentiment Analysis en Español  
 
-El ejercicio implementa un flujo completo de *análisis de sentimientos* en mensajes cortos en español utilizando técnicas de *Procesamiento de Lenguaje Natural (NLP)* y algoritmos de *clasificación supervisada*.  
+**Autor del notebook:** José Luis Medrano Cerdas
+
+El notebook implementa implementa un flujo completo de *análisis de sentimientos* en mensajes cortos en español utilizando técnicas de *Procesamiento de Lenguaje Natural (NLP)* y algoritmos de *clasificación supervisada*.  
 
 ## Dataset  
 El análisis se fundamenta en un conjunto de datos diseñado para el estudio de sentimientos en mensajes escritos en español, utilizando el dataset público [Sentiment Analysis in Spanish Tweets](https://www.kaggle.com/datasets/philipsanm/sentiment-analysis-in-spanish-tweets/data) [4], que contiene *2590 registros* extraídos desde la red social Twitter.  
